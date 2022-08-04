@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+body{
+    background-color: rgb(65, 11, 239);
+    font-family: 'poppins',sans-serif;
+}
+input[type=number]{
+    width: 200px;
+    padding: 7px;
+}
+#input-label{
+    color: rgb(198, 54, 22);
+    font-weight: 700;
+    font-size: 20px;
+}
+input[type=number]:focus{
+    outline: none;
+}
+input[type=number]::placeholder{
+    color: rgb(190, 193, 193);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#suggestion{
+    background-color: rgb(255, 98, 0);
+    padding: 5px;
+    color: #fff;
+}
+#box-title{
+    color: rgb(216, 59, 7);
+    margin: 20px;
+    font-size: 35px;
+}
+#sub_btn{
+    padding: 20px 50px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(233, 99, 10);
+}
+#sub_btn:hover{
+    background-color: rgb(16, 119, 52);
+  }
+.box{
+    transition-duration: .5s;
+    padding: 10px;
+    width: 550px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.cointaner{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
